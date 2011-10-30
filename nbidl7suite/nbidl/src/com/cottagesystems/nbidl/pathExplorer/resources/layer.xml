@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<!--
+The contents of this file are subject to the terms of the Common Development
+and Distribution License (the License). You may not use this file except in
+compliance with the License.
+
+You can obtain a copy of the License at http://www.netbeans.org/cddl.html
+or http://www.netbeans.org/cddl.txt.
+
+When distributing Covered Code, include this CDDL Header Notice in each file
+and include the License file at http://www.netbeans.org/cddl.txt.
+If applicable, add the following below the CDDL Header, with the fields
+enclosed by brackets [] replaced by your own identifying information:
+"Portions Copyrighted [year] [name of copyright owner]"
+
+The Original Software is NetBeans. The Initial Developer of the Original
+Software is Sun Microsystems, Inc. Portions Copyright 1997-2006 Sun
+Microsystems, Inc. All Rights Reserved.
+-->
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.1//EN" "http://www.netbeans.org/dtds/filesystem-1_1.dtd">
+<filesystem>
+    <folder name="Actions">
+        <folder name="Window">
+            <file name="com-cottagesystems-nbidl-pathExplorer-View.instance">
+                <attr name="instanceCreate" methodvalue="com.cottagesystems.nbidl.pathExplorer.Actions.view" />
+            </file>
+            <file name="com-cottagesystems-nbidl-pathExplorer-Add.instance">
+                <attr name="instanceCreate" methodvalue="com.cottagesystems.nbidl.pathExplorer.Actions.add" />
+            </file>
+            <file name="com-cottagesystems-nbidl-pathExplorer-Remove.instance">
+                <attr name="instanceCreate" methodvalue="com.cottagesystems.nbidl.pathExplorer.Actions.remove" />
+            </file>
+            <folder name="SelectDocumentNode">
+                <file name="com-cottagesystems-nbidl-pathExplorer-Select.instance">
+                    <attr name="instanceCreate" methodvalue="com.cottagesystems.nbidl.pathExplorer.Actions.select" />
+                </file>
+            </folder>
+        </folder>
+        <folder name="System">
+            <file name="com-cottagesystems-nbidl-pathExplorer-templates-TemplatesAction.instance"/>
+        </folder>
+    </folder>
+
+    <folder name="Menu">
+        <folder name="GoTo">
+            <attr name="org-netbeans-modules-project-ui-SelectInFiles.shadow/com-cottagesystems-nbidl-pathExplorer-SelectInFavorites.shadow" boolvalue="true"/>            
+            <file name="com-cottagesystems-nbidl-pathExplorer-SelectInFavorites.shadow">
+                <attr name="originalFile" stringvalue="Actions/Window/SelectDocumentNode/com-cottagesystems-nbidl-pathExplorer-Select.instance"/>
+            </file>
+        </folder>
+        <attr name="GoTo/Tools" boolvalue="true" />
+        <folder name="Tools">
+            <file name="com-cottagesystems-nbidl-pathExplorer-templates-TemplatesAction.instance"/>
+            <attr name="JavaPlatformsCustomizerAction.instance/com-cottagesystems-nbidl-pathExplorer-templates-TemplatesAction.instance" boolvalue="true" />
+            <attr name="LibrariesCustomizerAction.instance/com-cottagesystems-nbidl-pathExplorer-templates-TemplatesAction.instance" boolvalue="true" />
+            <attr name="com-cottagesystems-nbidl-pathExplorer-templates-TemplatesAction.instance/Separator2.instance" boolvalue="true" />
+            <attr name="ServerManagerAction.instance/com-cottagesystems-nbidl-pathExplorer-templates-TemplatesAction.instance" boolvalue="true"/>
+        </folder>
+      <folder name="Window">
+            <attr name="org-netbeans-modules-project-ui-physical-tab-action.shadow/ViewFavoritesTabAction.shadow" boolvalue="true" />
+            <file name="ViewFavoritesTabAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/Window/com-cottagesystems-nbidl-pathExplorer-View.instance"/>
+            </file>
+            <attr name="ViewFavoritesTabAction.shadow/ViewRuntimeTabAction.shadow" boolvalue="true" />
+        </folder>
+    </folder>
+    
+    <!-- default workspaces, frames and their layout defined by core-->
+    <folder name="Windows2">
+        <folder name="Modes">
+            <folder name="explorer">
+                <attr name="favorites.wstcref/Javadoc.wstcref" boolvalue="true" />
+                <attr name="favorites.wstcref/runtime.wstcref" boolvalue="true" />
+                <file name="favorites.wstcref" url="favorites.wstcref" />
+            </folder>
+        </folder>
+        <folder name="Components">
+            <file name="favorites.settings" url="component.settings" />
+        </folder>
+    </folder>
+    <folder name="Favorites">
+        <attr name="SystemFileSystem.localizingBundle" stringvalue="com.cottagesystems.nbidl.pathExplorer.Bundle"/>
+        <file name="Home.shadow">
+            <attr name="originalFile" methodvalue="com.cottagesystems.nbidl.pathExplorer.Favorites.getHome" />
+            <attr name="originalFileSystem" stringvalue="org.netbeans.modules.masterfs.MasterFileSystem" />
+        </file>
+    </folder>
+
+    <folder name="Templates" >
+        <folder name="Other" >
+            <folder name="Folder">
+                <attr name="template" boolvalue="true"/>
+                <attr name="SystemFileSystem.localizingBundle" stringvalue="com.cottagesystems.nbidl.pathExplorer.Bundle" />
+                <attr name="templateWizardURL" urlvalue="nbresloc:/org/netbeans/modules/favorites/resources/templatesFolder.html" />
+            </folder>
+            <attr name="SystemFileSystem.localizingBundle" stringvalue="com.cottagesystems.nbidl.pathExplorer.Bundle"/>
+            <file name="file">
+                <![CDATA[]]>
+                <attr name="template" boolvalue="true"/>
+                <attr name="SystemFileSystem.localizingBundle" stringvalue="com.cottagesystems.nbidl.pathExplorer.Bundle"/>
+                <attr name="SystemFileSystem.icon" urlvalue="nbresloc:/org/netbeans/modules/favorites/resources/newFile.gif"/>
+                <attr name="templateWizardURL" urlvalue="nbresloc:/org/netbeans/modules/favorites/resources/templatesFile.html"/>
+                <attr name="templateCategory" stringvalue="simple-files"/>
+            </file>
+        </folder>
+        <!-- folder for all privileged templates -->
+        <folder name="Privileged">
+	    <file name="Folder.shadow">
+                <attr name="originalFile" stringvalue="Templates/Other/Folder"/>
+            </file>
+	</folder>
+    </folder>
+ 
+</filesystem>

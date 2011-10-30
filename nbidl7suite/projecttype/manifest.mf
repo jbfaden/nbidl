@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+OpenIDE-Module: com.cottagesystems.nbidl.projecttype
+OpenIDE-Module-Implementation-Version: 1
+OpenIDE-Module-Layer: com/cottagesystems/nbidl/projecttype/layer.xml
+OpenIDE-Module-Localizing-Bundle: com/cottagesystems/nbidl/projecttype/Bundle.properties
+

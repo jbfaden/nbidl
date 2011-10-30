@@ -1,0 +1,3 @@
+create dependencty to editor code folding module
+specify FoldManager and Sidebar for your mimetype in the module layer 
+add 

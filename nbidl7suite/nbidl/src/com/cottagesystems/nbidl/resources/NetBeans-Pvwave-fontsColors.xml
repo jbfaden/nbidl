@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+
+<fontscolors>
+    <fontcolor name="pvwave-annotation" foreColor="ff006f00" default="default"/>
+    <fontcolor name="pvwave-block-comment" default="comment"/>
+    <fontcolor name="pvwave-char-literal" default="char"/>
+    <fontcolor name="pvwave-errors" default="error"/>
+    <fontcolor name="pvwave-identifier" default="identifier"/>
+    <fontcolor name="pvwave-keywords" default="keyword"/>
+    <fontcolor name="pvwave-internal-functions" foreColor="ff0000cc" default="pvfunctions"/>
+    <fontcolor name="pvwave-user-functions" foreColor="ff980098" default="userfunctions"/>
+    <fontcolor name="pvwave-line-comment" default="comment"/>
+    <fontcolor name="pvwave-numeric-literals" default="number"/>
+    <fontcolor name="pvwave-operators" default="operator"/>
+    <fontcolor name="pvwave-string-literal" default="string"/>
+    <fontcolor name="pvwave-whitespace" default="whitespace"/>
+</fontscolors>

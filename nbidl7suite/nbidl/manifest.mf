@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+OpenIDE-Module: com.cottagesystems.nbidl/1
+OpenIDE-Module-Implementation-Version: 5
+OpenIDE-Module-Layer: com/cottagesystems/nbidl/layer.xml
+OpenIDE-Module-Localizing-Bundle: com/cottagesystems/nbidl/Bundle.properties
+OpenIDE-Module-Install: com/cottagesystems/nbidl/syntax/RestoreColoring.class
+
+Name: com/cottagesystems/nbidl/dataobject/ProceduresFileDataLoader.class
+OpenIDE-Module-Class: Loader

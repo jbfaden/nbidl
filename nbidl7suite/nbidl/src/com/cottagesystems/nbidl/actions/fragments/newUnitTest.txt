@@ -1,0 +1,11 @@
+; returns 0 if the test suceeds, non zero otherwise.
+function test_NAME, testNum, testCount=testCount, testName=testName, _extra=e
+    testCount=2
+    if ( testNum eq 0 ) then begin
+       return, 0
+    endif else if ( testNum eq 1 ) then begin
+       return, 0
+    endif else begin
+       message, 'bad test num'
+    endelse
+end

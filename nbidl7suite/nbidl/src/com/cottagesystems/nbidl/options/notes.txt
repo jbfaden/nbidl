@@ -1,0 +1,6 @@
+changed needs to be set to false after populateUI();
+style: changed not Changed
+getIconBase is now getIcon
+isChanged in GCheckerOptionsPanelController needs to be:
+  customizer.isChanged()
+GSettingUtil is awkward and confusing.  Surely there is an easier way.

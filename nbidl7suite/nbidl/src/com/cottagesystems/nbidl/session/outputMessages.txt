@@ -1,0 +1,45 @@
+;; when a breakpoint is hit:
+Breakpoint at: ACTION_DRAW       414 J:\ct\papco\working\papco\papco\papco_actions.pro
+
+;; IDL> help, /trace
+At ACTION_DRAW       414 J:\ct\papco\working\papco\papco\papco_actions.pro
+   PAPCO_MAIN_EVENT  415 J:\ct\papco\working\papco\papco\papco_event.pro
+   WIDGET_PROCESS_EVENTS
+   $MAIN$          
+
+;; IDL> help, /functions
+Compiled Functions:
+ADDSUBTIME               time1 time2 ADD SUBTRACT 
+ADD_51S                  buf org_names DEBUG INDEX 
+ALTERNATE_VIEW           buf org_names 
+AMIA_TRANSFORMATION_MATRIX       v 
+AMI_ISTPPTR              aname 
+AMI_MYSTRUCT             a 
+AMI_VAR                  aname 
+ANGADJ                   mltin iyr lat lon alt 
+
+;;IDL> help, names='*'
+DRAW_WIN_NAME   UNDEFINED = <Undefined>
+WIDGETDATA (PLOT_COMPOSER)
+                STRUCT    = -> PLOT_COMPOSER_20_14 Array[1]
+
+;;IDL> % Compiled module: TIME_TEST.
+help, /source, 'time_test'
+Compiled Procedures:
+$MAIN$                   
+TIME_TEST                 /usr/local/rsi/idl_6.2/lib/time_test.pro
+
+Compiled Functions:
+IDL>
+
+
+;; PAPCO wraps error output like so:
+% Tag name CANCELED is undefined for structure PAPCO_PLOTINFO_19.
+% Execution halted at:  PAPCO_ADD_PLOT    693 /net/spot/home/jbf/ct/papco/working/papco/papco/papco_plotedit.pro
+%                       ADDPANEL_PAPCO_CDF  110 /net/spot/home/jbf/ct/papco/working/papco/papco_modules/papco_cdf/papco_interface/papcoadd_papco_cdf.pro
+%                       PAPCO_MODULE_EVENT   38 /net/spot/home/jbf/ct/papco/working/papco//papco/papco_module_event.pro
+%                       XMANAGER_EVLOOP_STANDARD  478 /usr/local/rsi/idl_6.2/lib/xmanager.pro
+%                       XMANAGER          708 /usr/local/rsi/idl_6.2/lib/xmanager.pro
+%                       PAPCO            1214 /net/spot/home/jbf/ct/papco/working/papco/papco/papco.pro
+%                       $MAIN$          
+

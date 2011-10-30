@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.1//EN" "http://www.netbeans.org/dtds/filesystem-1_1.dtd">
+<filesystem>
+    <folder name="Actions">
+        <folder name="Debug">
+            <file name="com-cottagesystems-nbidl-actions-PvwaveReloadAction.instance" url="com-cottagesystems-nbidl-actions-PvwaveReloadAction.instance">
+                <attr name="instanceCreate" methodvalue="com.cottagesystems.nbidl.debugger.actions.PvwaveReloadAction.getInstance"/>
+            </file>
+            <file name="com-cottagesystems-nbidl-actions-SetBreakEnter.instance">
+                <attr name="instanceClass" stringvalue="com.cottagesystems.nbidl.debugger.actions.SetBreakEnter"/>
+            </file>
+            <file name="com-cottagesystems-nbidl-actions-StartIDLSessionAction.instance">
+                <attr name="instanceClass" stringvalue="com.cottagesystems.nbidl.debugger.actions.StartIDLSessionAction"/>
+            </file>
+            <file name="com-cottagesystems-nbidl-actions-SetBreakpointAction.instance">
+                <attr name="instanceClass" stringvalue="com.cottagesystems.nbidl.debugger.actions.SetBreakpointAction"/>
+            </file>
+            <file name="com-cottagesystems-nbidl-actions-ClearBreakpointAction.instance">
+                <attr name="instanceClass" stringvalue="com.cottagesystems.nbidl.debugger.actions.ClearBreakpointAction"/>
+            </file>
+            <file name="com-cottagesystems-nbidl-debugger-actions-ExecuteLineAction.instance">
+                <attr name="instanceClass" stringvalue="com.cottagesystems.nbidl.debugger.actions.ExecuteLineAction"/>
+            </file>
+        </folder>
+        <folder name="Edit">
+            <file name="com-cottagesystems-nbidl-actions-DataObjectShowDependenciesAction.instance">
+                <attr name="instanceCreate" methodvalue="com.cottagesystems.nbidl.actions.DataObjectShowDependenciesAction.getInstance"/>
+            </file>
+            <file name="com-cottagesystems-nbidl-actions-DataObjectShowUsagesAction.instance">
+                <attr name="instanceCreate" methodvalue="com.cottagesystems.nbidl.actions.DataObjectShowUsagesAction.getInstance"/>
+            </file>
+            <file name="com-cottagesystems-nbidl-actions-GenerateCodeActions.instance"/>
+            <file name="com-cottagesystems-nbidl-actions-OpenFellowAction.instance"/>
+            <file name="com-cottagesystems-nbidl-actions-DumpSyntax.instance">
+                <attr name="instanceClass" stringvalue="com.cottagesystems.nbidl.actions.DumpSyntax"/>
+            </file>
+            <file name="com-cottagesystems-nbidl-actions-GotoSourceAction.instance">
+                <attr name="instanceClass" stringvalue="com.cottagesystems.nbidl.actions.GotoSourceAction"/>
+            </file>
+            <file name="com-cottagesystems-nbidl-actions-ShowUsagesAction.instance">
+                <attr name="instanceClass" stringvalue="com.cottagesystems.nbidl.actions.ShowUsagesAction"/>
+            </file>
+            <file name="com-cottagesystems-nbidl-actions-ShowCurrentProcedure.instance">
+                <attr name="instanceClass" stringvalue="com.cottagesystems.nbidl.actions.ShowCurrentProcedure"/>
+            </file>
+        </folder>
+        <folder name="Tools">
+            <file name="com-cottagesystems-nbidl-actions-ShowUsagesSummary.instance"/>
+        </folder>
+        <folder name="Window">
+            
+            <file name="com-cottagesystems-nbidl-pathExplorer-View.instance">
+                <attr name="instanceCreate" methodvalue="com.cottagesystems.nbidl.pathExplorer.Actions.view"/>
+            </file>
+            <file name="com-cottagesystems-nbidl-pathExplorer-Add.instance">
+                <attr name="instanceCreate" methodvalue="com.cottagesystems.nbidl.pathExplorer.Actions.add"/>
+            </file>
+            <file name="com-cottagesystems-nbidl-pathExplorer-Remove.instance">
+                <attr name="instanceCreate" methodvalue="com.cottagesystems.nbidl.pathExplorer.Actions.remove"/>
+            </file>
+            <file name="com-cottagesystems-nbidl-pathExplorer-LookupName.instance">
+                <attr name="instanceCreate" methodvalue="com.cottagesystems.nbidl.pathExplorer.Actions.lookupName"/>
+            </file>
+            <folder name="SelectDocumentNode">
+                <file name="com-cottagesystems-nbidl-pathExplorer-Select.instance">
+                    <attr name="instanceCreate" methodvalue="com.cottagesystems.nbidl.pathExplorer.Actions.select"/>
+                </file>
+            </folder>
+            <file name="com-cottagesystems-nbidl-idloutput2-OutputWindowAction.instance"/>
+        </folder>
+    </folder>
+    <folder name="Loaders">
+        <folder name="text">
+            <folder name="x-application-pvwave">
+                <folder name="Actions">
+                    <file name="org-openide-actions-OpenAction.instance"/>
+                    <attr name="org-openide-actions-OpenAction.instance/sep-0.instance" boolvalue="true"/>
+                    <file name="sep-0.instance">
+                        <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                    </file>
+                    <attr name="org-openide-actions-OpenAction.instance/org-openide-actions-FileSystemAction.instance" boolvalue="true"/>
+                    <file name="sep-1.instance">
+                        <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                    </file>
+                    <attr name="sep-1.instance/org-openide-actions-CutAction.instance" boolvalue="true"/>
+                    <file name="org-openide-actions-CutAction.instance"/>
+                    <attr name="org-openide-actions-CutAction.instance/org-openide-actions-CopyAction.instance" boolvalue="true"/>
+                    <file name="org-openide-actions-CopyAction.instance"/>
+                    <attr name="org-openide-actions-CopyAction.instance/sep-2.instance" boolvalue="true"/>
+                    <file name="sep-2.instance">
+                        <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                    </file>
+                    <attr name="sep-2.instance/org-openide-actions-DeleteAction.instance" boolvalue="true"/>
+                    <file name="org-openide-actions-DeleteAction.instance"/>
+                    <attr name="org-openide-actions-DeleteAction.instance/org-openide-actions-RenameAction.instance" boolvalue="true"/>
+                    <file name="org-openide-actions-RenameAction.instance"/>
+                    <attr name="org-openide-actions-RenameAction.instance/sep-3.instance" boolvalue="true"/>
+                    <file name="sep-3.instance">
+                        <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                    </file>
+                    <attr name="sep-3.instance/org-openide-actions-SaveAsTemplateAction.instance" boolvalue="true"/>
+                    <file name="org-openide-actions-SaveAsTemplateAction.instance"/>
+                    <attr name="org-openide-actions-SaveAsTemplateAction.instance/sep-4.instance" boolvalue="true"/>
+                    <file name="sep-4.instance">
+                        <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                    </file>
+                    <attr name="sep-4.instance/org-openide-actions-ToolsAction.instance" boolvalue="true"/>
+                    <attr name="com-cottagesystems-nbidl-actions-PvwaveReloadAction.shadow/org-openide-actions-FileSystemAction.instance" boolvalue="true"/>
+                    <file name="org-openide-actions-FileSystemAction.instance"/>
+                    <attr name="org-openide-actions-OpenAction.instance/com-cottagesystems-nbidl-actions-PvwaveReloadAction.shadow" boolvalue="true"/>
+                    <attr name="sep-4.instance/com-cottagesystems-nbidl-actions-DataObjectShowUsagesAction.shadow" boolvalue="true"/>
+                    <file name="com-cottagesystems-nbidl-actions-DataObjectShowUsagesAction.shadow">
+                        <attr name="originalFile" stringvalue="Actions/Edit/com-cottagesystems-nbidl-actions-DataObjectShowUsagesAction.instance"/>
+                    </file>
+                    <attr name="com-cottagesystems-nbidl-actions-DataObjectShowUsagesAction.shadow/org-openide-actions-ToolsAction.instance" boolvalue="true"/>
+                    <attr name="com-cottagesystems-nbidl-actions-DataObjectShowUsagesAction.shadow/com-cottagesystems-nbidl-actions-DataObjectShowDependenciesAction.shadow" boolvalue="true"/>
+                    <file name="com-cottagesystems-nbidl-actions-DataObjectShowDependenciesAction.shadow">
+                        <attr name="originalFile" stringvalue="Actions/Edit/com-cottagesystems-nbidl-actions-DataObjectShowDependenciesAction.instance"/>
+                    </file>
+                    <attr name="com-cottagesystems-nbidl-actions-DataObjectShowDependenciesAction.shadow/org-openide-actions-ToolsAction.instance" boolvalue="true"/>
+                    <file name="org-openide-actions-ToolsAction.instance"/>
+                    <attr name="org-openide-actions-ToolsAction.instance/org-openide-actions-PropertiesAction.instance" boolvalue="true"/>
+                    <file name="org-openide-actions-PropertiesAction.instance"/>
+                </folder>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="Tools">
+            <attr name="com-cottagesystems-nbidl-actions-StartSSHAction.shadow/LibrariesCustomizerAction.instance" boolvalue="true"/>
+            <file name="com-cottagesystems-nbidl-actions-ShowUsagesSummary.shadow">
+                <attr name="originalFile" stringvalue="Actions/Tools/com-cottagesystems-nbidl-actions-ShowUsagesSummary.instance"/>
+            </file>
+            <attr name="com-cottagesystems-nbidl-actions-ShowUsagesSummary.shadow/com-cottagesystems-nbidl-actions-separatorAfter.instance" boolvalue="true"/>
+        </folder>
+        <folder name="Window">
+            <file name="ViewPathExplorerTabAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/Window/com-cottagesystems-nbidl-pathExplorer-View.instance"/>
+            </file>
+            <attr name="ViewFavoritesTabAction.shadow/com-cottagesystems-nbidl-idloutput2-OutputWindowAction.instance" boolvalue="true"/>
+            <attr name="com-cottagesystems-nbidl-idloutput2-OutputWindowAction.instance/ViewRuntimeTabAction.shadow" boolvalue="true"/>
+            <file name="com-cottagesystems-nbidl-idloutput2-OutputWindowAction.instance"/>
+            <attr name="com-cottagesystems-nbidl-idloutput2-OutputWindowAction.instance/Form" boolvalue="true"/>
+        </folder>
+    </folder>
+    <folder name="Services">
+        <folder name="MIMEResolver">
+            <file name="ProceduresFileResolver.xml" url="dataobject/ProceduresFileResolver.xml">
+                <attr name="SystemFileSystem.icon" urlvalue="nbresloc:/com/cottagesystems/nbidl/dataobject/icon2.png"/>
+                <attr name="SystemFileSystem.localizingBundle" stringvalue="com.cottagesystems.nbidl.Bundle"/>
+            </file>
+        </folder>
+        <folder name="IndentEngine">
+            <file name="com-cottagesystems-nbidl-indent-PvwaveIndentEngine.settings" url="indent/PvwaveIndentEngine.settings">
+                <attr name="SystemFileSystem.localizingBundle" stringvalue="com.cottagesystems.nbidl.Bundle"/>
+                <attr name="SystemFileSystem.icon" urlvalue="nbresloc:/org/netbeans/modules/editor/resources/indentEngine.gif"/>
+            </file>
+        </folder>
+        <file name="com.cottagesystems.nbidl.idloutput2.settings.OutputSettings.settings" url="output/resources/OutputSettings.xml">
+        </file>
+        <folder name="AutoupdateType">
+            <file name="com_cottagesystems_nbidl_update_center.settings" url="com_cottagesystems_nbidl_update_centerSettings.xml">
+                <attr name="SystemFileSystem.localizingBundle" stringvalue="com.cottagesystems.nbidl.Bundle"/>
+                <attr name="enabled" boolvalue="true"/>
+                <attr name="url_key" stringvalue="com_cottagesystems_nbidl_update_center"/>
+            </file>
+        </folder>
+        
+    </folder>
+    <folder name="Templates">
+        <folder name="Other">
+            <file name="ProceduresFileTemplate.pro" url="resources/ProceduresFileTemplate.pro">
+                <attr name="SystemFileSystem.icon" urlvalue="nbresloc:/com/cottagesystems/nbidl/resources/icon2.png"/>
+                <attr name="SystemFileSystem.localizingBundle" stringvalue="com.cottagesystems.nbidl.Bundle"/>
+                <attr name="template" boolvalue="true"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Editors">
+        <folder name="text">
+            <folder name="x-application-pvwave">
+                <folder name="GlyphGutterActions">
+                    <file name="org-netbeans-modules-debugger-ui-actions-ToggleBreakpointAction.shadow">
+                        <attr name="originalFile" stringvalue="Actions/Debug/org-netbeans-modules-debugger-ui-actions-ToggleBreakpointAction.instance"/>
+                    </file>
+                </folder>
+                <folder name="HyperlinkProviders">
+                    <file name="PvwaveHyperlinkProvider.instance">
+                        <attr name="instanceClass" stringvalue="com.cottagesystems.nbidl.hyperlink.PvwaveHyperlinkProvider"/>
+                    </file>
+                </folder>
+                <folder name="ToolTips">
+                    <file name="com-cottagesystems-nbidl-debugger-ToolTipAnnotation.instance"/>
+                </folder>
+                <folder name="Popup">
+                    <file name="com-cottagesystems-nbidl-actions-ShowUsagesAction.shadow">
+                        <attr name="originalFile" stringvalue="Actions/Edit/com-cottagesystems-nbidl-actions-ShowUsagesAction.instance"/>
+                    </file>
+                    <attr name="com-cottagesystems-nbidl-actions-ShowUsagesAction.shadow/com-cottagesystems-nbidl-actions-separator0.instance" boolvalue="true"/>
+                    <file name="com-cottagesystems-nbidl-actions-separator0.instance">
+                        <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                    </file>
+                    <attr name="com-cottagesystems-nbidl-actions-separator0.instance/com-cottagesystems-nbidl-actions-SetBreakpointAction.shadow" boolvalue="true"/>
+                    <attr name="com-cottagesystems-nbidl-actions-separator0.instance/com-cottagesystems-nbidl-actions-SetBreakEnter.shadow" boolvalue="true"/>
+                    <file name="com-cottagesystems-nbidl-actions-SetBreakEnter.shadow">
+                        <attr name="originalFile" stringvalue="Actions/Debug/com-cottagesystems-nbidl-actions-SetBreakEnter.instance"/>
+                    </file>
+                    <attr name="com-cottagesystems-nbidl-actions-SetBreakEnter.shadow/com-cottagesystems-nbidl-actions-SetBreakpointAction.shadow" boolvalue="true"/>
+                    <file name="com-cottagesystems-nbidl-actions-SetBreakpointAction.shadow">
+                        <attr name="originalFile" stringvalue="Actions/Debug/com-cottagesystems-nbidl-actions-SetBreakpointAction.instance"/>
+                    </file>
+                    <attr name="com-cottagesystems-nbidl-actions-SetBreakpointAction.shadow/com-cottagesystems-nbidl-actions-ClearBreakpointAction.shadow" boolvalue="true"/>
+                    <file name="com-cottagesystems-nbidl-actions-ClearBreakpointAction.shadow">
+                        <attr name="originalFile" stringvalue="Actions/Debug/com-cottagesystems-nbidl-actions-ClearBreakpointAction.instance"/>
+                    </file>
+                    <attr name="com-cottagesystems-nbidl-actions-ClearBreakpointAction.shadow/com-cottagesystems-nbidl-actions-separator1.instance" boolvalue="true"/>
+                    <file name="com-cottagesystems-nbidl-actions-separator1.instance">
+                        <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                    </file>
+                    <attr name="com-cottagesystems-nbidl-actions-separator1.instance/com-cottagesystems-nbidl-actions-DumpSyntax.shadow" boolvalue="true"/>
+                    <file name="com-cottagesystems-nbidl-actions-DumpSyntax.shadow">
+                        <attr name="originalFile" stringvalue="Actions/Edit/com-cottagesystems-nbidl-actions-DumpSyntax.instance"/>
+                    </file>
+                    <file name="com-cottagesystems-nbidl-actions-DumpSyntax.shadow">
+                        <attr name="originalFile" stringvalue="Actions/Edit/com-cottagesystems-nbidl-actions-DumpSyntax.instance"/>
+                    </file>
+                    <attr name="com-cottagesystems-nbidl-actions-DumpSyntax.shadow/com-cottagesystems-nbidl-actions-ShowCurrentProcedure.shadow" boolvalue="true"/>
+                    
+                    <file name="com-cottagesystems-nbidl-actions-ShowCurrentProcedure.shadow">
+                        <attr name="originalFile" stringvalue="Actions/Edit/com-cottagesystems-nbidl-actions-ShowCurrentProcedure.instance"/>
+                    </file>
+                    
+                    <attr name="com-cottagesystems-nbidl-actions-DumpSyntax.shadow/com-cottagesystems-nbidl-actions-separatorAfter.instance" boolvalue="true"/>
+                    <file name="com-cottagesystems-nbidl-actions-separatorAfter.instance">
+                        <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                    </file>
+                                        
+                    <file name="com-cottagesystems-nbidl-actions-GenerateCodeActions.shadow">
+                        <attr name="originalFile" stringvalue="Actions/Edit/com-cottagesystems-nbidl-actions-GenerateCodeActions.instance"/>
+                    </file>
+                    <attr name="com-cottagesystems-nbidl-actions-GenerateCodeActions.shadow/com-cottagesystems-nbidl-actions-OpenFellowAction.shadow" boolvalue="true"/>
+                                        
+                    <file name="com-cottagesystems-nbidl-actions-OpenFellowAction.shadow">
+                        <attr name="originalFile" stringvalue="Actions/Edit/com-cottagesystems-nbidl-actions-OpenFellowAction.instance"/>
+                    </file>
+                    <file name="com-cottagesystems-nbidl-actions-GotoSourceAction.shadow">
+                        <attr name="originalFile" stringvalue="Actions/Edit/com-cottagesystems-nbidl-actions-GotoSourceAction.instance"/>
+                    </file>
+                    <file name="com-cottagesystems-nbidl-actions-PvwaveReloadAction.shadow">
+                        <attr name="originalFile" stringvalue="Actions/Debug/com-cottagesystems-nbidl-actions-PvwaveReloadAction.instance"/>
+                    </file>
+                    <file name="com-cottagesystems-nbidl-debugger-actions-ExecuteLineAction.shadow">
+                        <attr name="originalFile" stringvalue="Actions/Debug/com-cottagesystems-nbidl-debugger-actions-ExecuteLineAction.instance"/>
+                    </file>
+                </folder>
+                <attr name="SystemFileSystem.localizingBundle" stringvalue="com.cottagesystems.nbidl.Bundle"/>
+                <folder name="NetBeans">
+                    <folder name="Defaults"> <!-- TODO: defaultColoring? -->
+                        <file name="coloring.xml" url="resources/NetBeans-Pvwave-fontsColors.xml">
+                            <attr name="SystemFileSystem.localizingBundle" stringvalue="com.cottagesystems.nbidl.Bundle"/>
+                        </file>
+                    </folder>
+                </folder> 
+                <folder name="CityLights">
+                    <folder name="Defaults">
+                        <file name="coloring.xml" url="resources/CityLights-Pvwave-fontsColors.xml">
+                            <attr name="SystemFileSystem.localizingBundle" stringvalue="com.cottagesystems.nbidl.Bundle"/>
+                        </file>
+                    </folder>
+                </folder>
+                <file name="Settings.settings" url="options/PvwaveOptions.settings"/>
+                <file name="EditorKit.instance">
+                    <attr name="instanceClass" stringvalue="com.cottagesystems.nbidl.syntax.PvwaveEditorKit"/>
+                </file>
+                <folder name="CompletionProviders">
+                    <file name="com-cottagesystems-nbidl-completion-PvwaveCompletionProvider.instance" url="com-cottagesystems-nbidl-completion-PvwaveCompletionProvider.instance"/>
+                </folder>
+                <folder name="FoldManager">
+                    <file name="com-cottagesystems-nbidl-codefold-PvwaveFoldManagerFactory.instance"/>
+                </folder>
+                <folder name="SideBar">
+                    <file name="com-cottagesystems-nbidl-codefold-PvwaveCodeFoldingSideBarFactory.instance"/>
+                    <attr name="org-netbeans-editor-GlyphGutter.instance/com-cottagesystems-nbidl-codefold-PvwaveCodeFoldingSideBarFactory.instance" boolvalue="true"/>
+                </folder>                
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Navigator">
+        <folder name="Panels">
+            <folder name="text">
+                <folder name="x-application-pvwave">
+                    <file name="com-cottagesystems-nbidl-dataobject-ProceduresFileNavigatorPanel.instance"/>
+                </folder>
+            </folder>
+        </folder>
+    </folder>
+    
+    <folder name="OptionsDialog">
+        <folder name="PreviewExamples">
+            <folder name="text">
+                <file name="x-application-pvwave" url="resources/PvwaveExample.pro">
+                    <attr name="SystemFileSystem.icon" urlvalue="nbresloc:/com/cottagesystems/nbidl/resources/icon2.png"/>
+                </file>
+            </folder>
+        </folder>
+        <attr name="Keymaps.instance/PvwaveOption2.instance" boolvalue="true"/> 
+        <file name="PvwaveOption2.instance">
+            <attr name="instanceClass" stringvalue="com.cottagesystems.nbidl.options.PvwaveOptionsCategory"/>
+        </file> 
+        <attr name="PvwaveOption2.instance/Advanced.instance" boolvalue="true"/>        
+    </folder>
+    
+    
+    <folder name="Windows2">
+        <folder name="Components">
+            <file name="pathExplorer.settings" url="pathExplorer/resources/pathExplorer.settings"/>
+            <file name="idloutput.settings" url="output/resources/idloutput.settings"/>
+        </folder>        
+        <folder name="Modes">
+            <folder name="explorer">      
+                <file name="pathExplorer.wstcref" url="pathExplorer/resources/pathExplorer.wstcref"/>
+            </folder>
+            <folder name="output">
+                <file name="idloutput.wstcref" url="output/resources/idloutput.wstcref"/>
+            </folder>
+            <file name="idloutput.wsmode" url="output/resources/idloutput.wsmode"/>
+        </folder>        
+        
+        <folder name="Groups">
+            <folder name="debugger">
+                <file name="idloutput.wstcgrp" url="output/resources/idloutput.wstcgrp"/>
+            </folder>
+        </folder>
+    </folder>
+    
+    <folder name="Shortcuts">
+        <file name="D-4.instance">
+            <attr name="instanceClass" stringvalue="com.cottagesystems.nbidl.idloutput2.OutputWindowAction"/>
+        </file>
+    </folder>
+    
+    
+    <folder name="Services">
+    </folder>
+</filesystem>

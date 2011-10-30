@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.1//EN" "http://www.netbeans.org/dtds/filesystem-1_1.dtd">
+<filesystem>
+    <folder name="Actions">
+        <folder name="Debug">
+            <file name="com-cottagesystems-nbidl-projecttype-actions-StartIdlSession.instance"/>
+        </folder>
+    </folder>
+    <folder name="Templates">
+        <folder name="Project">
+            <folder name="Standard">
+                <file name="emptyProjectProject.zip" url="emptyProjectProject.zip">
+                    <attr name="SystemFileSystem.localizingBundle" stringvalue="com.cottagesystems.nbidl.projecttype.Bundle"/>
+                    <attr name="instantiatingIterator" methodvalue="com.cottagesystems.nbidl.projecttype.templates.emptyProjectWizardIterator.createIterator"/>
+                    <attr name="instantiatingWizardURL" urlvalue="nbresloc:/com/cottagesystems/nbidl/projecttype/templates/emptyProjectDescription.html"/>
+                    <attr name="template" boolvalue="true"/>
+                </file>
+            </folder>
+        </folder>
+    </folder>
+</filesystem>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+                Sun Public License Notice
+
+The contents of this file are subject to the Sun Public License
+Version 1.0 (the "License"). You may not use this file except in
+compliance with the License. A copy of the License is available at
+http://www.sun.com/
+
+The Original Code is NetBeans. The Initial Developer of the Original
+Code is Sun Microsystems, Inc. Portions Copyright 1997-2004 Sun
+Microsystems, Inc. All Rights Reserved.
+-->
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.1//EN" "http://www.netbeans.org/dtds/filesystem-1_1.dtd">
+<filesystem>
+
+    <folder name="Actions">
+        <folder name="Window">
+            <file name="com-cottagesystems-nbidl-idloutput2-OutputWindowAction.instance"/>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="Window">
+            <attr name="ViewFavoritesTabAction.shadow/com-cottagesystems-nbidl-idloutput2-OutputWindowAction.instance" boolvalue="true"/>
+            <attr name="com-cottagesystems-nbidl-idloutput2-OutputWindowAction.instance/ViewRuntimeTabAction.shadow" boolvalue="true"/>
+            <file name="com-cottagesystems-nbidl-idloutput2-OutputWindowAction.instance"/>
+            <attr name="com-cottagesystems-nbidl-idloutput2-OutputWindowAction.instance/Form" boolvalue="true"/>
+        </folder>
+    </folder>
+    <folder name="Shortcuts">
+        <file name="D-4.instance">
+	    <attr name="instanceClass" stringvalue="org.netbeans.core.output2.OutputWindowAction"/>
+	</file>
+    </folder>
+    
+    <folder name="Windows2">
+        <folder name="Modes">
+            <file name="output.wsmode" url="resources/output.wsmode" />
+            <folder name="output">
+                <file name="output.wstcref" url="resources/output.wstcref" />
+            </folder>
+        </folder>
+        
+        <folder name="Components">
+            <file name="output.settings" url="resources/output.settings" />
+        </folder>
+        
+        <folder name="Groups">
+            <folder name="debugger">
+                <file name="output.wstcgrp" url="resources/output.wstcgrp" />
+            </folder>
+        </folder>
+                
+    </folder>
+    
+  <folder name="Services">
+    <file name="org.netbeans.core.output2.settings.OutputSettings.settings" url="resources/OutputSettings.xml">
+    </file>
+  </folder>
+</filesystem>

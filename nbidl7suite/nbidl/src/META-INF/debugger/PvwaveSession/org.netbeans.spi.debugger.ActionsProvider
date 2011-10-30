@@ -1,0 +1,2 @@
+com.cottagesystems.nbidl.debugger.PvwaveDebugger
+com.cottagesystems.nbidl.debugger.breakpoints.PvwaveBreakpointActionProvider

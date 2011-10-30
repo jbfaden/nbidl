@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://www.netbeans.org/ns/project/1">
+    <type>org.netbeans.modules.apisupport.project</type>
+    <configuration>
+        <data xmlns="http://www.netbeans.org/ns/nb-module-project/2">
+            <code-name-base>de.mud</code-name-base>
+            <suite-component/>
+            <module-dependencies/>
+            <public-packages>
+                <package>de.mud.jta</package>
+                <package>de.mud.jta.event</package>
+                <package>de.mud.jta.plugin</package>
+                <package>de.mud.ssh</package>
+                <package>de.mud.telnet</package>
+                <package>de.mud.terminal</package>
+            </public-packages>
+            <class-path-extension>
+                <runtime-relative-path>ext/sshterm.jar</runtime-relative-path>
+                <binary-origin>release/modules/ext/sshterm.jar</binary-origin>
+            </class-path-extension>
+        </data>
+    </configuration>
+</project>

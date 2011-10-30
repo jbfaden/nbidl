@@ -1,0 +1,2 @@
+com.cottagesystems.nbidl.debugger.breakpoints.BreakpointAnnotationListener
+com.cottagesystems.nbidl.debugger.breakpoints.PersistenceManager
